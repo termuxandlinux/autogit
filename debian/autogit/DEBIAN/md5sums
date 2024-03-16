@@ -1,0 +1,5 @@
+7ce1b4a011942b4f949a5f38cb346e0f  bin/autogit
+1d8af54add86765f049585bffd9656ef  usr/share/autogit/src/gh.sh
+d047138752cd2a8a92cf7a1e4a26bf12  usr/share/autogit/src/push.sh
+5e89ec6a48b15fc1babcca2eaa15675c  usr/share/autogit/src/set.sh
+2888091edebf01ebca8b4829fea8d55f  usr/share/doc/autogit/changelog.gz

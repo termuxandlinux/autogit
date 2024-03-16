@@ -1,0 +1,11 @@
+Package: autogit
+Version: 1.0
+Architecture: all
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Installed-Size: 15
+Depends: git
+Section: git
+Priority: important
+Description: Auto Git is an tool for easyer manager git
+ A brief description of your package goes here. This can be multiple lines
+ if necessary.

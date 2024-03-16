@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 16 Mar 2024 12:00:00 +0000
+Source: autogit
+Binary: autogit
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.0
+Distribution: mantic
+Urgency: high
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Changed-By: Alexander Krefting <kakrefting@gmail.com>
+Description:
+ autogit    - Auto Git is an tool for easyer manager git
+Changes:
+ autogit (1.0) mantic; urgency=high
+ .
+   * Initial release.
+Checksums-Sha1:
+ bbbe9386ddd9b3e0b87f7da45d197767e0478ab0 476 autogit_1.0.dsc
+ acfa722e9bd1368ed90f5921548edcec7e93d371 18932 autogit_1.0.tar.gz
+ ca9a8021451676b73e2a8b251fa54637ce81f5c6 2322 autogit_1.0_all.deb
+ 635cf44fb2fbbd8467bf35bc9e967c702c63c423 5242 autogit_1.0_armhf.buildinfo
+Checksums-Sha256:
+ 298c691a2d6906e1a81768a932a4fe263acf132c44c8ec547f2d51037ac8a4da 476 autogit_1.0.dsc
+ 58428ed41ddfd6800f3ef0a8f45da85c4f6a448125f75b4cc165b0ed505ebadd 18932 autogit_1.0.tar.gz
+ e4c5c6a6fab4d4c6b51bb0f1a93f6dfd3ff684d5aa05c3aadb26890e800283ab 2322 autogit_1.0_all.deb
+ 07093ef0895c9be733fb97b33ce19a3a5819c20407d73370a1cd6d3db33a0cd9 5242 autogit_1.0_armhf.buildinfo
+Files:
+ 8e7e380292461330470a60e9204cd257 476 git important autogit_1.0.dsc
+ 10ac50f48fe764f90313bed79647c899 18932 git important autogit_1.0.tar.gz
+ 41f25af4fefe1466b77dbad8a0c06a0b 2322 git important autogit_1.0_all.deb
+ 45f17f9c9487a0d05df215687db2c997 5242 git important autogit_1.0_armhf.buildinfo
