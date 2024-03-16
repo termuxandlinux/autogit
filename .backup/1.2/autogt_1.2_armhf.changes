@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 16 Mar 2024 12:00:00 +0000
+Source: autogt
+Binary: autogt
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.2
+Distribution: mantic
+Urgency: high
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Changed-By: Alexander Krefting <kakrefting@gmail.com>
+Description:
+ autogt     - Auto Gt is an tool for easyer manager git
+Changes:
+ autogt (1.2) mantic; urgency=high
+ .
+   * SOS
+Checksums-Sha1:
+ 56f2de45ae194fdbb1437cd2f49b99ab4f062413 475 autogt_1.2.dsc
+ 3241f217a40932aa1df664eeb97b4c08812c1adc 976807 autogt_1.2.tar.gz
+ ca4accc93b20f1cc5319be0338fa113a90d97ebc 2292 autogt_1.2_all.deb
+ 18ca2daf479c1dd88a92d27d31ad1d138eeabbbc 5234 autogt_1.2_armhf.buildinfo
+Checksums-Sha256:
+ 07e07915efb590e405f30726bb208d4c13b327b789ca10598d45eae3262d12b5 475 autogt_1.2.dsc
+ dfed2260ef86f9a3125faa7547aed5a848cb37c2a1c97a43b15de92547577e60 976807 autogt_1.2.tar.gz
+ 1b1db4ff535b2e851a5c8474a9574a9e76fbca62406f2c7ec24639b71de2b9a8 2292 autogt_1.2_all.deb
+ e051d3f35ffb821038ec83ee946f65b2690b570c7d0465ecf6acd8555dd05308 5234 autogt_1.2_armhf.buildinfo
+Files:
+ 530f80927074e2f855a65f945b224d65 475 utils important autogt_1.2.dsc
+ 7a428aa6627b0e2597165aa21bc74ad4 976807 utils important autogt_1.2.tar.gz
+ 874b28e54d54197a402de9edf0509d2c 2292 utils important autogt_1.2_all.deb
+ af034f36272933d0df1f50bf23b2773e 5234 utils important autogt_1.2_armhf.buildinfo
