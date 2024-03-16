@@ -2,21 +2,21 @@
 
 # Display help page
 display_help() {
-    echo "Usage: ./autogit [OPTION]..."
-    echo "A utility script for automating git operations based on .autogit.conf"
+    echo "Usage: ./autogt [OPTION]..."
+    echo "A utility script for automating git operations based on .autogt.conf"
     echo ""
     echo "Options:"
-    echo "  --set [repo]     Set up repository with settings from .autogit.conf"
+    echo "  --set [repo]     Set up repository with settings from .autogt.conf"
     echo "  --push           Trigger a git push operation"
     echo "  --gh             Perform GitHub specific operations"
     echo "  --help, --h      Display this help and exit"
-    echo "  --show           Display all details from .autogit.conf"
+    echo "  --show           Display all details from .autogt.conf"
 }
 
-# Show details from .autogit.conf
+# Show details from .autogt.conf
 show_details() {
-    echo "Contents of .autogit.conf:"
-    cat ~/.autogit.conf
+    echo "Contents of .autogt.conf:"
+    cat ~/.autogt.conf
 }
 
 # Main function to parse arguments
@@ -27,9 +27,9 @@ main() {
         read -s -p "Git Token: " token  # -s to hide input
         echo
 
-        echo "username=${username}" > ~/.autogit.conf
-        echo "mail=${mail}" >> ~/.autogit.conf
-        echo "token=${token}" >> ~/.autogit.conf
+        echo "username=${username}" > ~/.autogt.conf
+        echo "mail=${mail}" >> ~/.autogt.conf
+        echo "token=${token}" >> ~/.autogt.conf
     else
         case "$1" in
             --set)
@@ -37,13 +37,13 @@ main() {
                     echo "Please specify the repository name."
                     exit 1
                 fi
-                /usr/share/autogit/src/set.sh "$2"
+                /usr/share/autogt/src/set.sh "$2"
                 ;;
             --push)
-                /usr/share/autogit/src/push.sh
+                /usr/share/autogt/src/push.sh
                 ;;
             --gh)
-                /usr/share/autogit/src/gh.sh
+                /usr/share/autogt/src/gh.sh
                 ;;
             --help|--h)
                 display_help
@@ -52,7 +52,7 @@ main() {
                 show_details
                 ;;
             *)
-                echo "Invalid argument. Use './autogit --help' for more information."
+                echo "Invalid argument. Use './autogt --help' for more information."
                 exit 1
                 ;;
         esac

@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 16 Mar 2024 12:00:00 +0000
+Source: autogit
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.0
+Distribution: mantic
+Urgency: high
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Changed-By: Alexander Krefting <kakrefting@gmail.com>
+Changes:
+ autogit (1.0) mantic; urgency=high
+ .
+   * Initial release.
+Checksums-Sha1:
+ 33263aff76f484341fc49d19c301663ee0cd5804 1185 autogit_1.0.dsc
+ 79ffc811dfa8dcc13cae79cfacac41cbe07c85eb 69054 autogit_1.0.tar.gz
+ f0e269f6fc0dabb8f2258aa1be3e81e2a667c4b3 5717 autogit_1.0_source.buildinfo
+Checksums-Sha256:
+ d046d705adb14cd988f0842c94f042a861917a01518922791a603774e2e49ccb 1185 autogit_1.0.dsc
+ 85a27ee8fc78f7b707b77cf9349cd1c376b981bf3ee8a973b473510d618e0b18 69054 autogit_1.0.tar.gz
+ d9c3e10bd99cf5f7da1725c857f05e0a4bb55e63cb741a2592ed0a066d491ee2 5717 autogit_1.0_source.buildinfo
+Files:
+ ff518aaed48438a13d84fb9049223c46 1185 git important autogit_1.0.dsc
+ 976e6e293964b68f9ea127dad5a5ec84 69054 git important autogit_1.0.tar.gz
+ 48341f004ad9f9b53183a84200c248f7 5717 git important autogit_1.0_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEFwjfYuJg9mMvI9NIEANV2M5/in8FAmX2I9oACgkQEANV2M5/
+in8xaQv/RSOKGj2rvAMDnddVlQcWscx0bjbYw3bm9vIwbZox9O53/G9o6pYfCPoP
+g0yb/hylw6QzhIIMxRB4VzP2Cpq5RIGi4EupN8+hBskoDJKQ032bO35J+eZ8idNl
+6ouBjATYrDfIL/ZMK8KRboFagwqhKmU84ed9m6QP6Uh9mq4qXOY954C/XileOa0J
+kibHavnl+M7kT8NFqn7BDtd4Pv34DOXyDg4PiDSmjwAI7Jw6GwBijtSliTQuEgpp
+T9DY1nZ/cdTdZ7CO8rjm86TGE9AJ+qTz0OZGm+Hnp9MNLRAUUOZ0woKCywaQKlrm
+lE2q5u1gEiFYBiGb1uQe5uKlLP41f0FuRachttbfiil7ZINfZNk8Ndi4nlg/OUze
+2QNV8u8pENgoMrf+Xhqm/1vjR1vHkwx1B3tCQbTfQa58DL56/SXtpaU5mIweA18a
+FIRR8++faJb2OD2mGh8vkv6Pwg3MUlbOiMianOnBFpOWXHEt9GcBbRxyfdZFE+vi
+TRpZ8BOI
+=1G1e
+-----END PGP SIGNATURE-----

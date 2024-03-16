@@ -6,8 +6,8 @@
 override_dh_auto_install:
 	dh_auto_install
 # Kopiere main.py (als serv-guy) in den /bin/-Ordner
-	mkdir -p $(CURDIR)/debian/autogit/bin
-	cp $(CURDIR)/autogit.sh $(CURDIR)/debian/autogit/bin/autogit
+	mkdir -p $(CURDIR)/debian/autogt/bin
+	cp $(CURDIR)/autogt.sh $(CURDIR)/debian/autogt/bin/autogt
 # Kopiere den gesamten Inhalt des src-Verzeichnisses in das Installationsverzeichnis
-	mkdir -p $(CURDIR)/debian/autogit/usr/share/autogit/src
-	cp -R $(CURDIR)/src/. $(CURDIR)/debian/autogit/usr/share/autogit/src
+	mkdir -p $(CURDIR)/debian/autogt/usr/share/autogt/src
+	cp -R $(CURDIR)/src/. $(CURDIR)/debian/autogt/usr/share/autogt/src

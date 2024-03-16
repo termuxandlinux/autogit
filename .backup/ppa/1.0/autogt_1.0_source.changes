@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 16 Mar 2024 12:00:00 +0000
+Source: autogt
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.0
+Distribution: mantic
+Urgency: high
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Changed-By: Alexander Krefting <kakrefting@gmail.com>
+Changes:
+ autogt (1.0) mantic; urgency=high
+ .
+   * Initial release.
+Checksums-Sha1:
+ c4994487c4d9fc26227564ed1c55e6107c1af0d1 1184 autogt_1.0.dsc
+ 2247ee08b96e307b282849848104bc75c9009c28 143130 autogt_1.0.tar.gz
+ 25c043bc9e85da23460688a68081e4d7d4d4754e 5713 autogt_1.0_source.buildinfo
+Checksums-Sha256:
+ 754ca261df310ed70afe9093e9a8767a5b4ab7385a2da2784e3c2443639102ac 1184 autogt_1.0.dsc
+ c6de6733a6c3e0675fe77ceedc74d68f972c92ecb2290fb3cb698b9b8b94756c 143130 autogt_1.0.tar.gz
+ 7011b9c96db4f6d4684942a263a71cae2295bbbcd8ad8278632786193856910c 5713 autogt_1.0_source.buildinfo
+Files:
+ 888e6b2732fd0fc4c5ae95a48ade468f 1184 utils important autogt_1.0.dsc
+ d30867bbe3c2b5ebf36035f03fda66a9 143130 utils important autogt_1.0.tar.gz
+ b893c34e2cf35836f3ff407da4853420 5713 utils important autogt_1.0_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEFwjfYuJg9mMvI9NIEANV2M5/in8FAmX2JhIACgkQEANV2M5/
+in+UlAv9HFR/J+6vnOLiuTZBx0JtZwQcMoGx6gUtlbjP+hqmWnnlUVZRZyidVgga
+OtVEjnHBBbtrrOBUY/ldQ9ahQt91704kK38Qwbh/C39MxqLNNbJa0N4VVDI/8Slv
+ofqFhekFegEMIhXpMGxYFiytBOKYh63fGzox+Ouq8p6/f6FRt5wpIizhXVUqGASj
+hyR1d2uW7G1VWS+3u210zJ6LL65yBEBlQOn8Nm+nb3C7pyIpVJu5osn/TWR+FX7K
+C9HYurXa9XG3ZeEf1f7O0EfbV5BvDl0cqC+YnKEpksHykU6GH5S/dZ55jaaA62Ea
+mgCo4GY5vf8RsnYKV5ZfjNs1t7WCqmGSjGzfk/mTGyjGlGUCvQN39IYt8SQm/bN4
+1QscBf4GOi3rkzldOvxdqp2Y36+4yI0ToCa1D1npFjOXGk3K0yQ4Yk25trY/GXbx
+72RIi+6vb1rRJYNrOT/i4Rg8VDZ6BxXf5eWx5Ene0BhH2n1wy4JvXC8q8DJFCyUb
+2kc+tHii
+=Wshh
+-----END PGP SIGNATURE-----

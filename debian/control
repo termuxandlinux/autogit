@@ -1,12 +1,11 @@
-Source: autogit
-Section: git
+Source: autogt
+Section: utils
 Priority: important
 Maintainer: Alexander Krefting <kakrefting@gmail.com>
 Build-Depends: debhelper-compat (= 12)
 
-Package: autogit
+Package: autogt
 Architecture: all
 Depends: git
-Description: Auto Git is an tool for easyer manager git
- A brief description of your package goes here. This can be multiple lines
- if necessary.
+Description: Auto Gt is an tool for easyer manager git
+ You need Git for Use autogt
